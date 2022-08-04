@@ -12,13 +12,21 @@ https://www.figma.com/file/fyN3JrM4xQQJpD7TWwvmTg/frame?node-id=0%3A1
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Accessibility assignment Giovanni</title>
     <link rel="stylesheet" type="text/css" href="mystyles.css" media="screen" />
+    <style>
+      .nav > ul {
+        display: inline-block;
+      }
+      li {
+        display: inline-block;
+      }
+    </style>
     <script src="https://kit.fontawesome.com/2bcfc04ea5.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
-      <img src ="assets/images/logo-placeholder-image.png" alt="Logo image" width="50" height="50"/>
-      <nav style="display: inline-block">
-        <ul> 
+      <nav class="nav">
+        <img src="assets/images/logo-placeholder-image.png" alt="Logo image" width="70" height="70"/>
+        <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Tech Stack</a></li>
@@ -53,11 +61,11 @@ https://www.figma.com/file/fyN3JrM4xQQJpD7TWwvmTg/frame?node-id=0%3A1
       <hr>
       <section>
         <h2>Tech stack</h2>
-        <i class="fab fa-js" id="javascript icon"></i>
-        <i class="fab fa-html5"></i>
-        <i class="fab fa-react"></i>
-        <i class="fab fa-sass"></i>
-        <i class="fab fa-css3"></i>
+        <i class="fab fa-js" title="javascript icon"></i>
+        <i class="fab fa-html5" title="html5 icon"></i>
+        <i class="fab fa-react" title="react icon"></i>
+        <i class="fab fa-sass" title="sass icon"></i>
+        <i class="fab fa-css3" title="css3 icon"></i>
       </section>
       <hr>
       <section>
@@ -93,15 +101,16 @@ https://www.figma.com/file/fyN3JrM4xQQJpD7TWwvmTg/frame?node-id=0%3A1
           <label for="email">Your Email</label>
           <input type="email" placeholder="your email" id="email" required/><br>
           <label for="message" >Leave a message</label>
-          <textarea placeholder="Your message" id="message" required></textarea>
-          <button type="reset">Reset</button>
-          <button type="submit">Submit</button>
+          <textarea placeholder="Your message" id="message" required></textarea><br>
+          <button type="reset">Reset Form</button>
+          <button type="submit">Submit Form</button>
         </form>
+
       </section>
     </main>
     <hr>
     <footer>
-        <p>Copyright ©2022</p>
+        <em>Copyright ©2022</em>
         <a href="http://www.facebook.com/"><i class="fa-brands fa-facebook" aria-hidden="true"></i>Go to facebook</a>
         <a href="http://www.twitter.com/"><i class="fa-brands fa-twitter" aria-hidden="true"></i>Go to twitter</a>
         <a href="http://www.youtube.com/"><i class="fa-brands fa-youtube" aria-hidden="true"></i>Go to youtube</a>
