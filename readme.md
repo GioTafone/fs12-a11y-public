@@ -1,2 +1,2 @@
-## Welcome to accessibility assignment.
-please follow the instructions which you can find in index.html
+## A11y exercises
+html page using A11y good practises
